@@ -12,15 +12,11 @@ Load the resulting binary file memtest.bin into the Apple II emulator or onto a 
 
 In the emulator or machine, type:
 
-objectivec
-
 CALL -151
 
 to enter the Apple II monitor.
 
 Load the binary into memory at address $300:
-
-makefile
 
 300: <memtest.bin
 
